@@ -2,6 +2,7 @@
 Simple URL opener for Go programs.
 # Usage
 Opening a link: OpenSite("url") 
+### Example
 ```go
 package main
 
