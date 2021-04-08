@@ -22,7 +22,7 @@ func OpenSite(url string) {
 	case "darwin":
 		err = exec.Command("open", url).Start()
 	default:
-		err = fmt.Errorf("Your platform can't use this module. Supported platforms: Linux, Windows and macOS.")
+		err = fmt.Errorf("Your platform can't use this module. Supported platforms: (GNU/)Linux, Windows and macOS.")
 	}
 	if err != nil {
 		log.Fatal(err)
