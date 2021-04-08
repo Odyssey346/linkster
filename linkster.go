@@ -11,7 +11,7 @@ func init() {
 	fmt.Println("linkster just woke up")
 }
 
-func openSite(url string) {
+func OpenSite(url string) {
 	var err error
 
 	switch runtime.GOOS {
