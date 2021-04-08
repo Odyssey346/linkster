@@ -7,7 +7,7 @@ import (
 	"runtime"
 )
 
-func main(url string) {
+func openSite(url string) {
 	var err error
 
 	switch runtime.GOOS {
