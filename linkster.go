@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	fmt.Println("linkster just woke up")
+	fmt.Println(nil)
 }
 
 func OpenSite(url string) {
