@@ -7,10 +7,6 @@ import (
 	"runtime"
 )
 
-func init() {
-	fmt.Println(nil)
-}
-
 func OpenSite(url string) {
 	var err error
 
